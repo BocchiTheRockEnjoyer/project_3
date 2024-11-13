@@ -1,0 +1,149 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Imported font */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #4CAF50; /* Header background color */
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer {
+  background: #333; /* Footer background color */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative; /* Footer positioning */
+}
+
+
+
+
+
+
+/* Navigation Styles */
+#main-nav {
+  text-align: center; /* Center the navigation */
+  background: #f2f2f2; /* Navigation background color */
+  padding: 1rem 0;
+}
+
+#main-nav ul {
+  list-style: none; /* Remove list-style from navigation */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+#main-nav li {
+  display: inline; /* Horizontal display for nav items */
+  margin: 0 1.5rem; /* Spacing between items */
+}
+
+#main-nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Link color */
+  font-weight: bold; /* Bold links */
+}
+
+
+
+
+
+
+/* Main Content Styles */
+#content-wrapper {
+  max-width: 800px; /* Fixed width for content area */
+  margin: 0 auto; /* Center content */
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem; /* Space between sections */
+  padding: 1rem;
+  background: #e9e9e9; /* Section background color */
+  border-radius: 8px; /* Rounded corners */
+}
+
+h1, h2, h3 {
+  font-size: 2rem; /* Heading font size */
+  margin-bottom: 1rem; /* Space below headings */
+}
+
+p {
+  font-size: 1rem; /* Paragraph font size */
+}
+
+img {
+  max-width: 100%; /* Responsive images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 2px; /* Rounded corners for images */
+  margin: 0.5rem 0; /* Spacing between images */
+}
+
+
+
+
+
+
+
+/* Specific Styles for Each Page */
+
+/* Hobbies Page Specific Styles */
+#main-content img {
+  border: 2px solid #4CAF50; /* Green border for images on the hobbies page */
+}
+
+/* About Me Page Specific Styles */
+video {
+  display: block; /* Center the video */
+  margin: 0 auto; /* Center the video */
+}
+
+/* Work Experience Section Specific Styles */
+#section4 ul {
+  list-style: disc; /* Use disc for bullet points in work experience */
+  padding-left: 20px; /* Add left padding */
+}
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #main-nav li {
+    display: block; /* Stack nav items vertically on small screens */
+    margin: 0.5rem 0; /* Adjust margin for vertical stacking */
+  }
+
+  #content-wrapper {
+    padding: 1rem; /* Reduced padding for smaller screens */
+  }
+
+  section {
+    padding: 0.5rem; /* Reduced padding in sections */
+  }
+}
+
+/* Fluid Layout */
+body {
+  font-size: 1rem; /* Base font size */
+}
+
+/* Ensure consistent styling across pages */
+h2 {
+  font-size: 1.75rem; /* Subheading font size */
+  margin-bottom: 1rem; /* Space below subheadings */
+}
