@@ -7,8 +7,8 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css"> 
-  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAubm0Dgg_xLhTmTwU2I_mScXdhFuR8p4I&callback=console.debug&libraries=maps,marker&v=beta">
-  </script>
+  <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=beta"></script>
+  <script src="js/google_map.js" defer></script> 
 </head>
 
 <body>
@@ -24,9 +24,8 @@
     </ul>
   </nav>
   <main id="content-wrapper">
-      <gmp-map center="54.663848876953125,-2.752450466156006" zoom="14" map-id="DEMO_MAP_ID">
-        <gmp-advanced-marker position="54.663848876953125,-2.752450466156006" title="My location"></gmp-advanced-marker>
-    </gmp-map>
+      <!-- Map container div, styling handled in CSS -->
+      <div id="map"></div>
   </main>
   <footer>
     <p>&copy; 2024 My Really Really Cool Website</p>
