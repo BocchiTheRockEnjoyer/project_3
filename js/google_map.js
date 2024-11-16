@@ -12,3 +12,4 @@ function initMap() {
         title: "My location",
     });
 }
+
