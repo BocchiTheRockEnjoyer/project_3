@@ -4,7 +4,6 @@ function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         center: mapCenter,
         zoom: 14,
-        mapId: "DEMO_MAP_ID", // Set your map ID if customized
     });
     
     const marker = new google.maps.Marker({
