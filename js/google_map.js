@@ -9,7 +9,7 @@ function initMap() {
     const marker = new google.maps.Marker({
         position: mapCenter,
         map: map,
-        title: "My location",
+        title: "My old home town",
     });
 }
 
